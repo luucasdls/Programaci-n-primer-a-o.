@@ -1,0 +1,10 @@
+Nombre =str(input("¿Qué producto desea comprar?"))
+Cantidad = int(input("Ingrese la cantidad que desea comprar."))
+Precio = int(input("Ingrese el precio a pagar por el producto."))
+Total = Cantidad * Precio
+print("\n-----FACTURA-----")
+print(f"Producto:{Nombre}")
+print(f"Cantidad: {Cantidad}")
+print(f"Precio x/unidad: ${Precio}")
+print(f"Total a pagar: ${Total}")
+print("------------------")
