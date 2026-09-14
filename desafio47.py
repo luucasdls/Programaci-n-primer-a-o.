@@ -11,6 +11,7 @@ class Autor:
             self.libros.remove(libro)
 
 autor1 = Autor("J.K. Rowling")
+
 autor1.agregar_libro("Harry Potter y la piedra filosofal.")
 autor1.agregar_libro("Harry Potter y la cámara secreta.")
 autor1.agregar_libro("Harry Potter y el prisionero de Azkaban.")

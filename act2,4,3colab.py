@@ -1,4 +1,3 @@
-#Desafío 7, convertidor de temperaturas de Celsius a Fahrenheit o Kelvin (Se considera grados celsius) 
 try: #Se utilizan los comandos "try" y "except" para evitar errores del usuario al colocar letras o grafemas, guiandolo a usar numeros con el print ultimo.
     Celsius = float (input("Dame un numero cualquiera, yo te lo voy a convertir a Fahrenheit o Kelvin.")) #Se utiliza el comando float para permitir al usuario colocar numeros con decimales.
     #Calculo para transformar de Celsius a Fahrenheit.

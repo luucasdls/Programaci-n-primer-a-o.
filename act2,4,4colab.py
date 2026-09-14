@@ -1,4 +1,3 @@
-#Desafío 8, encontrando multiplos de números enteros.
 try:
     Numero = int(input("Escriba un número entero porfavor."))
     #Formula para encontrar el operador módulo.

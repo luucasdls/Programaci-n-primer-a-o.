@@ -35,6 +35,8 @@ libro3 = Libro(
     "978-987-800-012-1"
 )
 
+autor1 = Autor("J.K. Rowling", [libro1, libro2, libro3])
+
 autor1.agregar_libro(libro1)
 autor1.agregar_libro(libro2)
 autor1.agregar_libro(libro3)
@@ -42,7 +44,6 @@ autor1.agregar_libro(libro3)
 
 print("Autor:", autor1.nombre)
 print("Libros escritos:")
-
 for libro in autor1.libros:
     print("-", libro.titulo)
     print("Género:", libro.genero)
