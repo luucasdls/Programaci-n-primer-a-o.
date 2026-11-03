@@ -1,0 +1,5 @@
+Libro prestado: Juego de tronos
+=====================
+Usuario prestatario: Lucas
+=====================
+Fecha del préstamo: 30 de Octubre del 2026

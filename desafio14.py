@@ -13,9 +13,7 @@ for segundo in range(10):
         #Suma de la velocidad a la distancia final.
         Distancias[i] += Velocidad
         #Muestra que piloto es, a cuanto va y cuanto avanzo en ese segundo.
-        print(Pilotos[i], "Va a la velocidad de", Velocidad, "Km/h" , "Va reccoriendo", Distancias[i] ,"en total")
-        #Linea vacía en la cual separo segundos.
-        print()
+        print(Pilotos[i], "Va a la velocidad de", Velocidad, "Km/h" , "Va reccoriendo", Distancias[i] ,"km en total")
 #Busco la mayor distancia recorrida por piloto.
 maxima_distancia = max(Distancias)
 print ("Carrera terminada")
